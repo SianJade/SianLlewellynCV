@@ -1,5 +1,5 @@
 body, html {
-    background-color: #fff;
+    background-color: #36454f;
     height: 100%;
     width: 100%;
 }
@@ -58,4 +58,8 @@ body, html {
     right: 25px;
     font-size: 24px;
     margin-left: 50px;
+}
+
+.openbtn {
+    cursor: pointer;
 }
