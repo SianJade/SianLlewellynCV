@@ -55,11 +55,37 @@ body, html {
 .hero-text {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     position: absolute;
     height: 20%;
-    left: 44%;
-    top: 45%;
+    left: 41%;
+    top: 42%;
     color: #36454f;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+table {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+th {
+    text-align: left;
+    background-color: rgba(255,255,255,0.3);
+}
+
+tr:hover {
+    background-color: rgba(255,255,255,0.3);
 }
